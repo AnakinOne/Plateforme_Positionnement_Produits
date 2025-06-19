@@ -1,0 +1,85 @@
+<!DOCTYPE html> <!--pour HTML5-->
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body id="formulaire">
+<header>
+    <h1>Formulaire d'entrée</h1>
+</header>
+    <form action="formulaire.php" method="post"></form>
+    <br><br>
+        
+    <div><label for="etude" id="name_study">Nom de l'étude : </label></div>
+    <div><input type="text" name="name" id="etude" required placeholder="Entrez le nom de l'étude"></div>
+    <br><br>
+
+    <div><label for="pays" id="pays_study">Dans quel pays se déroule l'étude ?</label></div>
+    <div><select id="pays" name="pays">
+        <option value="france">France</option>
+        <option value="italie">Italie</option>
+        </select></div>
+    <br><br>
+
+    <div><label for="periode" id="periode_study">Période de l'étude : </label></div>
+    <div><select id="periode" name="periode">
+        <option value="q1">Trimestre 1</option>
+        <option value="q2">Trimestre 2</option>
+        <option value="q3">Trimestre 3</option>
+        <option value="q4">Trimestre 4</option>
+        </select></div>
+    <br><br>
+
+    <div><label for="cat_pro" id="category_product">Catégorie de produit : </label></div>
+    <div><select id="cat_pro" name="cat_pro">
+        <option value="rince">Produit rincé</option>
+        <option value="nonrince">Produit non rincé</option>
+        <option value="maquilage">Produit de maquillage</option>
+        </select></div>
+    <br><br>
+
+    <div><label for="sous_cat_pro" id="sous_category_product">Sous-catégorie de produit : </label></div>
+    <div><select id="sous_cat_pro" name="sous_cat_pro">
+        <option value="hydra">Produit hydratation</option>
+        <option value="antiage">Produit anti-âge</option>
+        <option value="soin">Produit de soin</option>
+        <option value="nettoyant">Produit nettoyant</option>
+        <option value="deodorant">Déodorant</option>
+        <option value="shampooing">Shampooing</option>
+        <option value="gel_douche">Gel douche</option>
+        </select></div>
+    <br><br>
+
+    <div><label for="appareil" id="appareil_study">Appareil utilisé : </label></div>
+    <div><select id="appareil" name="appareil">
+        <option value="corneometre">Cornéomètre</option>
+        <option value="evaskin">Evaskin</option>
+        <option value="cutometer">Cutomètre</option>
+        <option value="tensiometre">Tensiomètre</option>
+        <option value="sebumeter">Sebumètre</option>
+        <option value="phmetre">pH-mètre</option>
+        <option value="visioscan">Visioscan</option>
+        <option value="colorimetre">Colorimètre</option>
+        </select></div> 
+    <br><br>
+
+    <div><label for="model_appareil" id="model_appareil">Modèle de l'appareil : </label></div>
+    <div><select id="model_appareil" name="model_appareil">
+        <option value="model1">Modèle 1</option>
+        <option value="model2">Modèle 2</option>
+        </select></div>
+    <br><br>
+
+    <div><label for="sous_cat_pro" id="sous_cat_pro">Sous-catégorie de l'appareil : </label></div>
+    <div><select id="sous_cat_pro" name="sous_cat_pro">
+        <option value="sous_model1">Sous-modèle 1</option>
+        <option value="sous_model2">Sous-modèle 2</option>
+        </select></div>
+
+    <br><br><br><br>
+        <button type="submit">Envoyer</button>
+    </form>
+</body>
+</html>
