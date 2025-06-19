@@ -3,57 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulaire</title>
+    <title>Form</title>
 </head>
 <body id="formulaire">
 <header>
-    <h1>Formulaire d'entrée</h1>
+    <h1>Study import form</h1>
 </header>
     <form action="formulaire.php" method="post"></form>
     <br><br>
         
-    <div><label for="etude" id="name_study">Nom de l'étude : </label></div>
-    <div><input type="text" name="name" id="etude" required placeholder="Entrez le nom de l'étude"></div>
+    <div><label for="study" id="name_study">Study name: </label></div>
+    <div><input type="text" name="name" id="study" required placeholder="Enter study name"></div>
     <br><br>
 
-    <div><label for="pays" id="pays_study">Dans quel pays se déroule l'étude ?</label></div>
-    <div><select id="pays" name="pays">
+    <div><label for="country" id="country_study">In which country is the study conducted?</label></div>
+    <div><select id="country" name="country">
         <option value="france">France</option>
-        <option value="italie">Italie</option>
+        <option value="italie">Italy</option>
         </select></div>
     <br><br>
 
-    <div><label for="periode" id="periode_study">Période de l'étude : </label></div>
-    <div><select id="periode" name="periode">
-        <option value="q1">Trimestre 1</option>
-        <option value="q2">Trimestre 2</option>
-        <option value="q3">Trimestre 3</option>
-        <option value="q4">Trimestre 4</option>
+    <div><label for="period" id="period_study">Study period: </label></div>
+    <div><select id="period" name="period">
+        <option value="q1">Quarter 1</option>
+        <option value="q2">Quarter 2</option>
+        <option value="q3">Quarter 3</option>
+        <option value="q4">Quarter 4</option>
         </select></div>
     <br><br>
 
-    <div><label for="cat_pro" id="category_product">Catégorie de produit : </label></div>
+    <div><label for="cat_pro" id="category_product">Product category: </label></div>
     <div><select id="cat_pro" name="cat_pro">
-        <option value="rince">Produit rincé</option>
-        <option value="nonrince">Produit non rincé</option>
-        <option value="maquilage">Produit de maquillage</option>
+        <option value="rinsed">Rinsed product</option>
+        <option value="nonrinsed">Non-rinsed product</option>
+        <option value="makeup">Makeup product</option>
         </select></div>
     <br><br>
 
-    <div><label for="sous_cat_pro" id="sous_category_product">Sous-catégorie de produit : </label></div>
-    <div><select id="sous_cat_pro" name="sous_cat_pro">
-        <option value="hydra">Produit hydratation</option>
-        <option value="antiage">Produit anti-âge</option>
-        <option value="soin">Produit de soin</option>
-        <option value="nettoyant">Produit nettoyant</option>
-        <option value="deodorant">Déodorant</option>
-        <option value="shampooing">Shampooing</option>
-        <option value="gel_douche">Gel douche</option>
+    <div><label for="sub_cat_pro" id="sous_category_product">Product sub-category: </label></div>
+    <div><select id="sub_cat_pro" name="sub_cat_pro">
+        <option value="hydra">Hydrating product</option>
+        <option value="antiage">Anti-aging product</option>
+        <option value="soin">Care product</option>
+        <option value="nettoyant">Cleansing product</option>
+        <option value="deodorant">Deodorant</option>
+        <option value="shampooing">Shampoo</option>
+        <option value="gel_douche">Shower gel</option>
         </select></div>
     <br><br>
 
-    <div><label for="appareil" id="appareil_study">Appareil utilisé : </label></div>
-    <div><select id="appareil" name="appareil">
+    <div><label for="device" id="device_study">Device used: </label></div>
+    <div><select id="device" name="device">
         <option value="corneometre">Cornéomètre</option>
         <option value="evaskin">Evaskin</option>
         <option value="cutometer">Cutomètre</option>
@@ -65,21 +65,21 @@
         </select></div> 
     <br><br>
 
-    <div><label for="model_appareil" id="model_appareil">Modèle de l'appareil : </label></div>
-    <div><select id="model_appareil" name="model_appareil">
-        <option value="model1">Modèle 1</option>
-        <option value="model2">Modèle 2</option>
+    <div><label for="model_device" id="model_device">Device model: </label></div>
+    <div><select id="model_device" name="model_device">
+        <option value="model1">Model 1</option>
+        <option value="model2">Model 2</option>
         </select></div>
     <br><br>
 
-    <div><label for="sous_cat_pro" id="sous_cat_pro">Sous-catégorie de l'appareil : </label></div>
-    <div><select id="sous_cat_pro" name="sous_cat_pro">
-        <option value="sous_model1">Sous-modèle 1</option>
-        <option value="sous_model2">Sous-modèle 2</option>
+    <div><label for="sub_cat_dev" id="sub_cat_dev">Device sub-category: </label></div>
+    <div><select id="sub_cat_dev" name="sub_cat_dev">
+        <option value="sub_model1">Sub-model 1</option>
+        <option value="sub_model2">Sub-model 2</option>
         </select></div>
 
     <br><br><br><br>
-        <button type="submit">Envoyer</button>
+        <button type="submit">Submit</button>
     </form>
 </body>
 </html>
